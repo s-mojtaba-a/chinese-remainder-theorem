@@ -56,7 +56,7 @@ class CRT:
 
 # read input from stdin an put a's in a and put n's in n
 # then answer = obj.solve()
-
+# if the answer does not exist it will return -1
 
 
 
