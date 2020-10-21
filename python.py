@@ -4,7 +4,7 @@ from math import gcd
 class CRT:
     ''' for solving a system of equations : x = a1 (mod n1)
         x = a2 (mod n2) , x = a3 (mod n3) , x = a4 (mod n4) 
-        ... . It will give the x mod (LCM(a1,a2,a3,a4,..))
+        ... . It will give the x mod (LCM(n1,n2,n3,n4,..))
     '''
 
     def __init__(self, num):
